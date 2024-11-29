@@ -1,0 +1,11 @@
+class Solution {
+    public void pattern14(int n) {
+        for(char i=0;i<n;i++){ // Line 4: Consider changing 'char' to 'int' for clarity as 'i' is used as an index
+            for(char j='A';j<='A'+i;j++){ // Line 5: Suggest adding a comment to explain the purpose of this loop
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+
+    }
+}
